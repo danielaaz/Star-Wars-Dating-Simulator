@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 444, in script
+    if leiameeting == True and r2meeting == True:
+  File "game/script.rpy", line 444, in <module>
+    if leiameeting == True and r2meeting == True:
+NameError: name 'leiameeting' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 444, in script
+    if leiameeting == True and r2meeting == True:
+  File "/Users/student/Downloads/renpy-6.18.3-sdk/renpy/ast.py", line 1587, in execute
+    if renpy.python.py_eval(condition):
+  File "/Users/student/Downloads/renpy-6.18.3-sdk/renpy/python.py", line 1416, in py_eval
+    return eval(py_compile(source, 'eval'), globals, locals)
+  File "game/script.rpy", line 444, in <module>
+    if leiameeting == True and r2meeting == True:
+NameError: name 'leiameeting' is not defined
+
+Darwin-13.3.0-x86_64-i386-64bit
+Ren'Py 6.18.3.761
+starwarsdatingsim 0.0

@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 462: expected statement.
+    r2 bad end: enter computer lab, get locked in, starve, a guy you're cheating on r2 with saves you, but you're so hungry you eat his flesh and only realize afterwards, then go crazy and bang your head on a window
+              ^
+
+Ren'Py Version: Ren'Py 6.18.3.761
